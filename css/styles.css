@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    background-color: rgb(241, 248, 254);
+    background-color: rgb(241, 248, 254, 0.5);
     padding: 15px;
     box-shadow: 4px 8px 10px rgb(0, 0, 0);
     position: sticky;
@@ -61,6 +61,13 @@ ul li a:hover {
 
 header {
     margin-bottom: 15px;
+    text-align: center;
+}
+
+.instructors {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .box {
@@ -76,4 +83,33 @@ header {
 .card-body {
     height: 200px;
     width: 200px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: rgb(241, 248, 254, 0.5);
+    padding: 15px;
+    box-shadow: 4px 8px 10px rgb(0, 0, 0);
+}
+
+.b2t {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.b2t:hover {
+    color: rgb(255, 0, 0);
+}
+
+.right {
+    float: right;
+    margin-top: -8px;
 }
