@@ -50,3 +50,17 @@ ul li:hover {
 ul li a:hover {
     color: rgb(241, 248, 254);
 }
+
+.jumbotron {
+    background: rgb(0, 0, 0) url("../img/jumbotron.jpg") no-repeat center; 
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+
+.text-back-jumbotron {
+    background-color: rgb(241, 248, 254);
+    height: 400px;
+    width: 200px;
+    
+}
